@@ -27,19 +27,71 @@
   </head>
   <body>
     <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Valentyna Nykonchuk</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  title="Go to homepage"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="/about.html"
+                  title="About Valentyna Nykonchuk"
+                  >About me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/recipes.html" title="Recipes"
+                  >Recipes</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="/about.html#contact"
+                  title="Contact Valentyna Nykonchuk"
+                  >Contact me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div class="row text-center top-main">
         <h1>Recipe Collection</h1>
-        <p>Hello, I'm Valentyna Nykonchuk, and it is my recipy book.</p>
+        <p>Hello, I'm Valentyna Nykonchuk, and this is my recipy book.</p>
 
         <div class="flex">
-          <a type="button" class="btn btn-outline-light"> Favourite recipes </a>
-
-          <a type="button" class="btn btn-light"> Contact me </a>
+          <a type="button" class="btn btn-outline-light m-2">
+            Favourite recipes
+          </a>
+          <a type="button" class="btn btn-light m-2"> Contact me </a>
         </div>
       </div>
       <div class="row row-cols-1 row-cols-md-2 g-4 m-3">
         <div class="col-md-4">
-          <div class="card">
+          <a href="#" class="card link-dark text-decoration-none">
             <img
               src="/images/recipes/Baked-Beans-fresh-768x576.jpg"
               class="card-img-top"
@@ -48,10 +100,10 @@
             <div class="card-body">
               <h5 class="card-title">Baked Beans</h5>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <a href="#" class="card link-dark text-decoration-none">
             <img
               src="/images/recipes/Eggs-Florentine-Quesadilla.jpg"
               class="card-img-top"
@@ -60,10 +112,10 @@
             <div class="card-body">
               <h5 class="card-title">Eggs Florentine Quesadilla</h5>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <a href="#" class="card link-dark text-decoration-none">
             <img
               src="/images/recipes/marinara.jpg"
               class="card-img-top"
@@ -72,10 +124,10 @@
             <div class="card-body">
               <h5 class="card-title">Marinara</h5>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <a href="#" class="card link-dark text-decoration-none">
             <img
               src="/images/recipes/meatballs.jpg"
               class="card-img-top"
@@ -84,10 +136,10 @@
             <div class="card-body">
               <h5 class="card-title">Meatballs</h5>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <a href="#" class="card link-dark text-decoration-none">
             <img
               src="/images/recipes/Mediterranean-Tuna-close.jpg"
               class="card-img-top"
@@ -96,10 +148,10 @@
             <div class="card-body">
               <h5 class="card-title">Mediterranean Tuna</h5>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <a href="#" class="card link-dark text-decoration-none">
             <img
               src="/images/recipes/Mexican-Red-Lentil-Stew.jpg"
               class="card-img-top"
@@ -108,10 +160,10 @@
             <div class="card-body">
               <h5 class="card-title">Mexican Red Lentil Stew</h5>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <a href="#" class="card link-dark text-decoration-none">
             <img
               src="/images/recipes/Pumpkin-Cream-Cheese-Spread-V2-768x1024.jpg"
               class="card-img-top"
@@ -120,10 +172,10 @@
             <div class="card-body">
               <h5 class="card-title">Pumpkin Cream Cheese Spread</h5>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <a href="#" class="card link-dark text-decoration-none">
             <img
               src="/images/recipes/ricotta-pancakes.jpg"
               class="card-img-top"
@@ -132,7 +184,7 @@
             <div class="card-body">
               <h5 class="card-title">Ricotta Pancakes</h5>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -154,7 +206,9 @@
             <i class="fa-brands fa-square-twitter"></i>
           </a>
         </div>
-        <p class="col-md-4 mb-0">© 2021 SheCodes All rights reserved.</p>
+        <p class="col-md-4 mb-0 text-end">
+          © 2021 SheCodes All rights reserved.
+        </p>
       </div>
     </footer>
     <script

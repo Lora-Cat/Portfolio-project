@@ -3,7 +3,9 @@
 footer {
   background: #f9f7fe;
 }
-
+footer a i {
+  font-size: 24px;
+}
 h1 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 800;
@@ -20,4 +22,14 @@ p {
   font-size: 24px;
   padding: 100px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  .top-main {
+    font-size: 20px;
+    padding: 100px 50px;
+  }
 }
