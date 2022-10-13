@@ -1,5 +1,9 @@
 /** @format */
 
+footer {
+  background: #f9f7fe;
+}
+
 h1 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 800;
