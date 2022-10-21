@@ -1,5 +1,7 @@
 /** @format */
-
+:root {
+  --contact-color: #662eed;
+}
 footer {
   background: #f9f7fe;
 }
@@ -8,7 +10,8 @@ footer a i {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 800;
   font-size: 72px;
@@ -22,7 +25,10 @@ h3 {
   font-size: 36px;
   text-align: center;
 }
-
+h4 {
+  font-size: 24px;
+  color: var(--contact-color);
+}
 p {
   font-family: "Signika Negative", sans-serif;
 }
@@ -42,7 +48,9 @@ p {
   padding: 15px;
   font-size: 24px;
 }
-
+.content i {
+  margin-right: 15px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 40px;
