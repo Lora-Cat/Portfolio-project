@@ -17,7 +17,6 @@ h3 {
 h2 {
   font-size: 60px;
   padding: 15px;
-  text-align: center;
 }
 h3 {
   font-size: 36px;
@@ -36,13 +35,10 @@ p {
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.about-me {
+.content {
   padding: 60px;
 }
-.about-me h2 {
-  text-align: left;
-}
-.about-me p {
+.content p {
   padding: 15px;
   font-size: 24px;
 }
@@ -58,11 +54,11 @@ p {
     font-size: 20px;
     padding: 100px 50px;
   }
-  .about-me {
+  .content {
     padding: 10px;
     text-align: center;
   }
-  .about-me p {
+  .content p {
     padding: 5px;
     font-size: 18px;
   }
